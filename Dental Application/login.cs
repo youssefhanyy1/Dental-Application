@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dental_Application.loadingFloder;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +31,9 @@ namespace Dental_Application
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-     
+            Form _loading = new Loading();
+            _loading.Show();
+
 
         }
     }

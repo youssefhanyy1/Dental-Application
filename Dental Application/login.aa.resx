@@ -117,303 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2PictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 426</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2DragControl1.Name" xml:space="preserve">
-    <value>guna2DragControl1</value>
-  </data>
-  <data name="&gt;&gt;guna2CustomCheckBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guna2Panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 16</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bahnschrift, 11pt, style=Bold</value>
-  </data>
-  <data name="guna2TextBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox2.Name" xml:space="preserve">
-    <value>guna2PictureBox2</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
-    <value>guna2Button2</value>
-  </data>
-  <data name="&gt;&gt;ExitPIC.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox3.Name" xml:space="preserve">
-    <value>guna2PictureBox3</value>
-  </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 467</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guna2PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guna2TextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 43</value>
-  </data>
-  <data name="guna2PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="guna2PictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 21</value>
-  </data>
-  <data name="guna2PictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="guna2PictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 142</value>
-  </data>
-  <data name="guna2TextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="&gt;&gt;guna2DragControl1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2DragControl, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="guna2PictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, -11</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Remember Me</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>login</value>
-  </data>
-  <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJ
-        TUUH5AYJChU4oWmSQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHXSURBVEhL
-        rdXPi41xFMfx8Xv8tmEhWapJKJGNxaTITomNZiMpGyvJr40dhX9gZsHGUtZKFnZSMiUrxMpOfkUWvHRu
-        5/I8Z547rsu7bvfc7/fzPef5nnOec8fGEkxiFs+wpr/+z2Act/DDb2aqbmRwo+G4TwQ7ULV9sALL6non
-        eF29J28GpQqX8CRTeg0bq+YX+FY9N5iu+iZYjmMZ6ETd74H31WuDSNXejjOncBX7sQArcRdnqjbEj6vX
-        BhHgYMeZzTiUzfEQm7A07fYD5ZN08RFHW+IEa7Eo7X1Zj9XYGkGqeHv1jE+YaAkb4Dye42T+Po3Lad/D
-        lnrgQQnwMnLbEhWywPexO9v2aa6fxfEq3oXvJchUS9QBDuNi2lHLhTiCC1UbgpkS4C02VF2TqEPkPu11
-        +b0Yq6q2J8jUNInULanakcEOfClB7vQ75r8QBSqDL5iO/FbtyGQbVm4PSle8jNhT1+cF12uErMn6ootO
-        ihvHJ27aOSDnkDOmK0h011TuT+BD2Y8pPHDUzwHnOmoSvMLnupiEPtp+6NtE4b9WL0MwW30NBDvxonr4
-        A73xMTT5MkYh61jpItI0WX0MRQ64GHTzcbOe+2uwDVfwCO+yTlH8+J8eD81Px6n6UYLYiDcAAAAASUVO
-        RK5CYII=
-</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="guna2PictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="guna2CustomCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 326</value>
-  </data>
-  <data name="&gt;&gt;guna2CustomCheckBox1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2CustomCheckBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guna2PictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>414, 462</value>
-  </data>
-  <data name="guna2PictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="guna2CustomCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 15</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.Name" xml:space="preserve">
-    <value>guna2TextBox1</value>
-  </data>
-  <data name="guna2TextBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 325</value>
-  </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="guna2PictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 16</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>459, 538</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="guna2PictureBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="guna2Button2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;ExitPIC.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2CirclePictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
   <data name="guna2Panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
@@ -3124,17 +2828,21 @@
         uWWGsvfHpQcuX+tbw7fDy6ZWTttAfNeocfEW48d0Dnl/WtY9vKA87sM+oAvsgFAva/UEGQEUAAAB/9k=
 </value>
   </data>
-  <data name="&gt;&gt;guna2PictureBox1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA69AAAOvQFH+5CtAAAAB3RJ
+        TUUH5AYJChU4oWmSQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHXSURBVEhL
+        rdXPi41xFMfx8Xv8tmEhWapJKJGNxaTITomNZiMpGyvJr40dhX9gZsHGUtZKFnZSMiUrxMpOfkUWvHRu
+        5/I8Z547rsu7bvfc7/fzPef5nnOec8fGEkxiFs+wpr/+z2Act/DDb2aqbmRwo+G4TwQ7ULV9sALL6non
+        eF29J28GpQqX8CRTeg0bq+YX+FY9N5iu+iZYjmMZ6ETd74H31WuDSNXejjOncBX7sQArcRdnqjbEj6vX
+        BhHgYMeZzTiUzfEQm7A07fYD5ZN08RFHW+IEa7Eo7X1Zj9XYGkGqeHv1jE+YaAkb4Dye42T+Po3Lad/D
+        lnrgQQnwMnLbEhWywPexO9v2aa6fxfEq3oXvJchUS9QBDuNi2lHLhTiCC1UbgpkS4C02VF2TqEPkPu11
+        +b0Yq6q2J8jUNInULanakcEOfClB7vQ75r8QBSqDL5iO/FbtyGQbVm4PSle8jNhT1+cF12uErMn6ootO
+        ihvHJ27aOSDnkDOmK0h011TuT+BD2Y8pPHDUzwHnOmoSvMLnupiEPtp+6NtE4b9WL0MwW30NBDvxonr4
+        A73xMTT5MkYh61jpItI0WX0MRQ64GHTzcbOe+2uwDVfwCO+yTlH8+J8eD81Px6n6UYLYiDcAAAAASUVO
+        RK5CYII=
+</value>
   </data>
   <data name="guna2PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3426,92 +3134,19 @@
         AElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2Button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="guna2CustomCheckBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox4.Name" xml:space="preserve">
-    <value>guna2PictureBox4</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI Light, 20pt</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox1.Name" xml:space="preserve">
-    <value>guna2PictureBox1</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.Name" xml:space="preserve">
-    <value>guna2TextBox2</value>
-  </data>
-  <data name="guna2CustomCheckBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ExitPIC.Name" xml:space="preserve">
-    <value>ExitPIC</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="guna2TextBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 198</value>
-  </data>
-  <data name="guna2Panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="ExitPIC.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="guna2PictureBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 213</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox3.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="guna2Button2.Text" xml:space="preserve">
-    <value>Sign In</value>
-  </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 99</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>856, 21</value>
+  <data name="ExitPIC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAdlJREFUeF7t
+        mEtKA0EURbMUwY04cUcGnKoLEeJEontwGQkaCLiRSIW+EJ79ea+q3qe0DtxJQxecM+mmVqtOp9PpdDpS
+        7p93V2n0uTVPr1/XafS5Kkl8vdl/rDf7o2eEs/zb4fT4fvg2i3AhfxrmEgHymEmEEXmXCFTeJMKMvGmE
+        KXnVCAx5kwhL8ioRBPKqEbjyVSNkyKtEkMpXizAEOI4IclYlQq48AjxsP2/pmSI8I7jLA48IYeSBZYRw
+        8sAiQlh5oBkhvDzQiNCMPKgZoTl5UCNCs/KgNAKV4i6EPCiJQMU4CyUPciNQuaWFlAc5Eajg3ELLA2kE
+        Kjm1JuSBJAIVHVtT8oAbgcrSNSkPOBGo8J+RTwwBfklLAhTd6HjCkV8K0GwErjwnQHMRJPLcAM1EkMpL
+        AoSPkCMvDRA2Qq58ToBwEUrk0z/CWWZEcmkhIpTK373sbpJEkxFqyOOs5iLUlAfNRNCQB+EjaMqDsBEs
+        5EG4CJbyIEwED3ngHsFTHrhGGALM3uhMrIo8yI2Q3qFnicmIUFUeSCNUkQeCCCrygBuhqjxgRFCVB0sR
+        VOTBTAQTeTAVQVUejEQwlQc0gok8uIjgIg8QwVQepAie8qDoO9/pdDqdzv/mBz5sdaX7diMzAAAAAElF
+        TkSuQmCC
+</value>
   </data>
   <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4150,252 +3785,79 @@
         EARBEARBEARBEARBEARBcM3/H7nk+6TpcYvkAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 31</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>273, 60</value>
-  </data>
-  <data name="ExitPIC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="guna2PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAdlJREFUeF7t
-        mEtKA0EURbMUwY04cUcGnKoLEeJEontwGQkaCLiRSIW+EJ79ea+q3qe0DtxJQxecM+mmVqtOp9PpdDpS
-        7p93V2n0uTVPr1/XafS5Kkl8vdl/rDf7o2eEs/zb4fT4fvg2i3AhfxrmEgHymEmEEXmXCFTeJMKMvGmE
-        KXnVCAx5kwhL8ioRBPKqEbjyVSNkyKtEkMpXizAEOI4IclYlQq48AjxsP2/pmSI8I7jLA48IYeSBZYRw
-        8sAiQlh5oBkhvDzQiNCMPKgZoTl5UCNCs/KgNAKV4i6EPCiJQMU4CyUPciNQuaWFlAc5Eajg3ELLA2kE
-        Kjm1JuSBJAIVHVtT8oAbgcrSNSkPOBGo8J+RTwwBfklLAhTd6HjCkV8K0GwErjwnQHMRJPLcAM1EkMpL
-        AoSPkCMvDRA2Qq58ToBwEUrk0z/CWWZEcmkhIpTK373sbpJEkxFqyOOs5iLUlAfNRNCQB+EjaMqDsBEs
-        5EG4CJbyIEwED3ngHsFTHrhGGALM3uhMrIo8yI2Q3qFnicmIUFUeSCNUkQeCCCrygBuhqjxgRFCVB0sR
-        VOTBTAQTeTAVQVUejEQwlQc0gok8uIjgIg8QwVQepAie8qDoO9/pdDqdzv/mBz5sdaX7diMzAAAAAElF
-        TkSuQmCC
+        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
 </value>
   </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;guna2ShadowForm1.Name" xml:space="preserve">
-    <value>guna2ShadowForm1</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>850, 492</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ExitPIC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 51</value>
-  </data>
-  <data name="guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 353</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox1.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox4.Parent" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="guna2PictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;guna2CustomCheckBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox4.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="guna2TextBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="guna2PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 119</value>
-  </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 45</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, -11</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 160</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guna2PictureBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="guna2TextBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt</value>
-  </data>
-  <data name="&gt;&gt;guna2Button2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Welcome To </value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox3.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="guna2Button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 41</value>
-  </data>
-  <data name="&gt;&gt;guna2TextBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ExitPIC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>389, 31</value>
-  </data>
-  <data name="guna2PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 46</value>
-  </data>
-  <data name="guna2PictureBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Happy Smile,</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>+213 0961 01 02 03</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Monotype Corsiva, 30pt, style=Bold</value>
-  </data>
-  <data name="guna2TextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 23</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="ExitPIC.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;ExitPIC.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;guna2Panel1.Name" xml:space="preserve">
-    <value>guna2Panel1</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="guna2TextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 264</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="guna2PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 25</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>AAE-Dental</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>856, 21</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Happy Life.</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="guna2TextBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>279, 43</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-3, 482</value>
-  </data>
-  <data name="&gt;&gt;guna2ShadowForm1.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2ShadowForm, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="&gt;&gt;guna2CustomCheckBox1.Name" xml:space="preserve">
-    <value>guna2CustomCheckBox1</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>Inherit</value>
   </data>
-  <data name="&gt;&gt;guna2PictureBox2.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 161</value>
-  </data>
-  <data name="&gt;&gt;guna2PictureBox4.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
-  </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="guna2PictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>209, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="guna2ShadowForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>aa</value>
-  </metadata>
 </root>
