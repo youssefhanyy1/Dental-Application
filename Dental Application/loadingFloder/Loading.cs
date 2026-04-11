@@ -44,7 +44,7 @@ namespace Dental_Application.loadingFloder
 
                 //Principal p = new Principal();
                 //p.Show();
-                //this.Hide();
+                this.Hide();
 
             }
             else
