@@ -2831,7 +2831,7 @@
   <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA69AAAOvQFH+5CtAAAAB3RJ
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJ
         TUUH5AYJChU4oWmSQgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHXSURBVEhL
         rdXPi41xFMfx8Xv8tmEhWapJKJGNxaTITomNZiMpGyvJr40dhX9gZsHGUtZKFnZSMiUrxMpOfkUWvHRu
         5/I8Z547rsu7bvfc7/fzPef5nnOec8fGEkxiFs+wpr/+z2Act/DDb2aqbmRwo+G4TwQ7ULV9sALL6non
@@ -3147,6 +3147,10 @@
         VOTBTAQTeTAVQVUejEQwlQc0gok8uIjgIg8QwVQepAie8qDoO9/pdDqdzv/mBz5sdaX7diMzAAAAAElF
         TkSuQmCC
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExitPIC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3855,9 +3859,5 @@
         NYNN0pRzK7X58D8EHlg4/yHwy70buyCvBxn/UROdzJiLSmE+cKU8abAYSQSuSHoAGf8x4pd7X+iCvJOT
         +Z8MqBTmvJhU5ve64mYCrkj6g/yR66fG/wMdx69C9CZZdwAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
   </data>
 </root>

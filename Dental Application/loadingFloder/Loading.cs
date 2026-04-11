@@ -1,4 +1,5 @@
-﻿using Guna.UI2.WinForms;
+﻿using Dental_Application.main;
+using Guna.UI2.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,8 +43,8 @@ namespace Dental_Application.loadingFloder
             {
                 timer1.Stop();
 
-                //Principal p = new Principal();
-                //p.Show();
+                Principal p = new Principal();
+                p.Show();
                 this.Hide();
 
             }

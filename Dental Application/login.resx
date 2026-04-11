@@ -132,9 +132,6 @@
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;guna2DragControl1.Name" xml:space="preserve">
-    <value>guna2DragControl1</value>
-  </data>
   <data name="&gt;&gt;guna2CustomCheckBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -162,20 +159,23 @@
   <data name="&gt;&gt;guna2PictureBox2.Name" xml:space="preserve">
     <value>guna2PictureBox2</value>
   </data>
-  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
-    <value>guna2Button2</value>
-  </data>
   <data name="&gt;&gt;ExitPIC.Parent" xml:space="preserve">
     <value>guna2Panel1</value>
   </data>
-  <data name="&gt;&gt;guna2PictureBox3.Name" xml:space="preserve">
-    <value>guna2PictureBox3</value>
+  <data name="guna2PictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>269, 467</value>
   </data>
   <data name="&gt;&gt;panel2.Name" xml:space="preserve">
     <value>panel2</value>
+  </data>
+  <data name="guna2PictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="guna2TextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 264</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -188,6 +188,9 @@
   </data>
   <data name="guna2TextBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>279, 43</value>
+  </data>
+  <data name="guna2PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 46</value>
   </data>
   <data name="guna2PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -269,12 +272,6 @@
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="guna2PictureBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 142</value>
-  </data>
   <data name="guna2TextBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
@@ -296,8 +293,11 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Remember Me</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>login</value>
+  <data name="ExitPIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 51</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="guna2PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -314,12 +314,6 @@
         A73xMTT5MkYh61jpItI0WX0MRQ64GHTzcbOe+2uwDVfwCO+yTlH8+J8eD81Px6n6UYLYiDcAAAAASUVO
         RK5CYII=
 </value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="guna2PictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="guna2CustomCheckBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 326</value>
@@ -341,6 +335,9 @@
   </data>
   <data name="guna2CustomCheckBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 15</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -393,8 +390,8 @@
   <data name="guna2Panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>459, 538</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>login</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -3432,6 +3429,9 @@
   <data name="guna2Button2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
+  <data name="&gt;&gt;guna2PictureBox4.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  </data>
   <data name="guna2CustomCheckBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -3456,6 +3456,9 @@
   <data name="&gt;&gt;guna2TextBox2.Name" xml:space="preserve">
     <value>guna2TextBox2</value>
   </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="guna2CustomCheckBox1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
@@ -3473,6 +3476,9 @@
   </data>
   <data name="guna2Panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="ExitPIC.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3506,6 +3512,12 @@
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 99</value>
+  </data>
+  <data name="&gt;&gt;guna2CustomCheckBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4153,31 +4165,14 @@
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 31</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
-  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>273, 60</value>
-  </data>
-  <data name="ExitPIC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAdlJREFUeF7t
-        mEtKA0EURbMUwY04cUcGnKoLEeJEontwGQkaCLiRSIW+EJ79ea+q3qe0DtxJQxecM+mmVqtOp9PpdDpS
-        7p93V2n0uTVPr1/XafS5Kkl8vdl/rDf7o2eEs/zb4fT4fvg2i3AhfxrmEgHymEmEEXmXCFTeJMKMvGmE
-        KXnVCAx5kwhL8ioRBPKqEbjyVSNkyKtEkMpXizAEOI4IclYlQq48AjxsP2/pmSI8I7jLA48IYeSBZYRw
-        8sAiQlh5oBkhvDzQiNCMPKgZoTl5UCNCs/KgNAKV4i6EPCiJQMU4CyUPciNQuaWFlAc5Eajg3ELLA2kE
-        Kjm1JuSBJAIVHVtT8oAbgcrSNSkPOBGo8J+RTwwBfklLAhTd6HjCkV8K0GwErjwnQHMRJPLcAM1EkMpL
-        AoSPkCMvDRA2Qq58ToBwEUrk0z/CWWZEcmkhIpTK373sbpJEkxFqyOOs5iLUlAfNRNCQB+EjaMqDsBEs
-        5EG4CJbyIEwED3ngHsFTHrhGGALM3uhMrIo8yI2Q3qFnicmIUFUeSCNUkQeCCCrygBuhqjxgRFCVB0sR
-        VOTBTAQTeTAVQVUejEQwlQc0gok8uIjgIg8QwVQepAie8qDoO9/pdDqdzv/mBz5sdaX7diMzAAAAAElF
-        TkSuQmCC
-</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
   </data>
   <data name="&gt;&gt;guna2ShadowForm1.Name" xml:space="preserve">
     <value>guna2ShadowForm1</value>
@@ -4191,17 +4186,11 @@
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="guna2PictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 142</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>850, 492</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ExitPIC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 51</value>
   </data>
   <data name="guna2Button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 353</value>
@@ -4227,8 +4216,8 @@
   <data name="guna2PictureBox3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;guna2CustomCheckBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;guna2PictureBox4.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -4245,17 +4234,17 @@
   <data name="&gt;&gt;guna2TextBox1.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="guna2TextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="guna2Panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>398, -11</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>200, 160</value>
   </data>
-  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="guna2PictureBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
   </data>
   <data name="guna2TextBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -4284,11 +4273,11 @@
   <data name="ExitPIC.Location" type="System.Drawing.Point, System.Drawing">
     <value>389, 31</value>
   </data>
-  <data name="guna2PictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 46</value>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="guna2PictureBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="&gt;&gt;guna2Button2.Name" xml:space="preserve">
+    <value>guna2Button2</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Happy Smile,</value>
@@ -4302,14 +4291,14 @@
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Monotype Corsiva, 30pt, style=Bold</value>
   </data>
-  <data name="guna2TextBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;guna2PictureBox3.Name" xml:space="preserve">
+    <value>guna2PictureBox3</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 23</value>
   </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="guna2PictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="ExitPIC.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -4326,8 +4315,19 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="guna2TextBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 264</value>
+  <data name="ExitPIC.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAdlJREFUeF7t
+        mEtKA0EURbMUwY04cUcGnKoLEeJEontwGQkaCLiRSIW+EJ79ea+q3qe0DtxJQxecM+mmVqtOp9PpdDpS
+        7p93V2n0uTVPr1/XafS5Kkl8vdl/rDf7o2eEs/zb4fT4fvg2i3AhfxrmEgHymEmEEXmXCFTeJMKMvGmE
+        KXnVCAx5kwhL8ioRBPKqEbjyVSNkyKtEkMpXizAEOI4IclYlQq48AjxsP2/pmSI8I7jLA48IYeSBZYRw
+        8sAiQlh5oBkhvDzQiNCMPKgZoTl5UCNCs/KgNAKV4i6EPCiJQMU4CyUPciNQuaWFlAc5Eajg3ELLA2kE
+        Kjm1JuSBJAIVHVtT8oAbgcrSNSkPOBGo8J+RTwwBfklLAhTd6HjCkV8K0GwErjwnQHMRJPLcAM1EkMpL
+        AoSPkCMvDRA2Qq58ToBwEUrk0z/CWWZEcmkhIpTK373sbpJEkxFqyOOs5iLUlAfNRNCQB+EjaMqDsBEs
+        5EG4CJbyIEwED3ngHsFTHrhGGALM3uhMrIo8yI2Q3qFnicmIUFUeSCNUkQeCCCrygBuhqjxgRFCVB0sR
+        VOTBTAQTeTAVQVUejEQwlQc0gok8uIjgIg8QwVQepAie8qDoO9/pdDqdzv/mBz5sdaX7diMzAAAAAElF
+        TkSuQmCC
+</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -4371,11 +4371,11 @@
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 161</value>
   </data>
-  <data name="&gt;&gt;guna2PictureBox4.Type" xml:space="preserve">
-    <value>Guna.UI2.WinForms.Guna2PictureBox, Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261</value>
+  <data name="&gt;&gt;guna2DragControl1.Name" xml:space="preserve">
+    <value>guna2DragControl1</value>
   </data>
-  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4383,8 +4383,8 @@
   <data name="guna2PictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="&gt;&gt;guna2Panel1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>209, 17</value>

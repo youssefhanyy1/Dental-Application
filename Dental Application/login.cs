@@ -34,6 +34,7 @@ namespace Dental_Application
             Form _loading = new Loading();
             _loading.Show();
 
+            this.Hide();
 
         }
     }

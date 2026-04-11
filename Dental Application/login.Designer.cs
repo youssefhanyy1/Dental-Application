@@ -36,7 +36,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.ExitPIC = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -50,12 +49,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.ExitPIC = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExitPIC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitPIC)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -105,18 +105,6 @@
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.TabStop = false;
-            // 
-            // ExitPIC
-            // 
-            resources.ApplyResources(this.ExitPIC, "ExitPIC");
-            this.ExitPIC.BackColor = System.Drawing.Color.Transparent;
-            this.ExitPIC.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ExitPIC.FillColor = System.Drawing.Color.Transparent;
-            this.ExitPIC.ImageRotate = 0F;
-            this.ExitPIC.Name = "ExitPIC";
-            this.ExitPIC.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.ExitPIC.TabStop = false;
-            this.ExitPIC.Click += new System.EventHandler(this.ExitPIC_Click);
             // 
             // guna2PictureBox1
             // 
@@ -233,6 +221,18 @@
             this.guna2DragControl1.TargetControl = this;
             this.guna2DragControl1.UseTransparentDrag = true;
             // 
+            // ExitPIC
+            // 
+            resources.ApplyResources(this.ExitPIC, "ExitPIC");
+            this.ExitPIC.BackColor = System.Drawing.Color.Transparent;
+            this.ExitPIC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ExitPIC.FillColor = System.Drawing.Color.Transparent;
+            this.ExitPIC.ImageRotate = 0F;
+            this.ExitPIC.Name = "ExitPIC";
+            this.ExitPIC.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ExitPIC.TabStop = false;
+            this.ExitPIC.Click += new System.EventHandler(this.ExitPIC_Click);
+            // 
             // login
             // 
             resources.ApplyResources(this, "$this");
@@ -257,9 +257,9 @@
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ExitPIC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ExitPIC)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,7 +274,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2CustomCheckBox guna2CustomCheckBox1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox ExitPIC;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -287,6 +286,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox ExitPIC;
     }
 }
 
