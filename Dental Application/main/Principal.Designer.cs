@@ -44,6 +44,8 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2_top = new Guna.UI2.WinForms.Guna2Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -52,8 +54,6 @@
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2ShadowForm1 = new Guna.UI2.WinForms.Guna2ShadowForm(this.components);
             this.guna2Panel2_control = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
@@ -88,7 +88,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(55, 867);
+            this.label2.Location = new System.Drawing.Point(55, 850);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 16);
@@ -101,7 +101,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(55, 845);
+            this.label1.Location = new System.Drawing.Point(55, 828);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 17);
@@ -114,7 +114,7 @@
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 845);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(12, 828);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(36, 35);
@@ -137,7 +137,7 @@
             this.guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(83)))), ((int)(((byte)(251)))));
             this.guna2Button7.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button7.Image")));
             this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.Location = new System.Drawing.Point(3, 768);
+            this.guna2Button7.Location = new System.Drawing.Point(3, 761);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(193, 45);
             this.guna2Button7.TabIndex = 14;
@@ -226,6 +226,7 @@
             this.guna2Button3.Size = new System.Drawing.Size(193, 45);
             this.guna2Button3.TabIndex = 11;
             this.guna2Button3.Text = "Patient List";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button2
             // 
@@ -247,6 +248,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(193, 45);
             this.guna2Button2.TabIndex = 10;
             this.guna2Button2.Text = "Calendar";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2PictureBox2
             // 
@@ -263,7 +265,7 @@
             // 
             // guna2Button1
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(83)))), ((int)(((byte)(251)))));
             this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -312,6 +314,27 @@
             this.guna2Panel2_top.Size = new System.Drawing.Size(1338, 53);
             this.guna2Panel2_top.TabIndex = 1;
             this.guna2Panel2_top.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_top_Paint);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(63, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 24);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Dashboard";
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Image = global::Dental_Application.Properties.Resources.dashboard__1_;
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(20, 6);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(34, 41);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox3.TabIndex = 0;
+            this.guna2PictureBox3.TabStop = false;
             // 
             // guna2CircleButton1
             // 
@@ -396,34 +419,13 @@
             // 
             // guna2Panel2_control
             // 
-            this.guna2Panel2_control.BackColor = System.Drawing.SystemColors.Window;
+            this.guna2Panel2_control.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
             this.guna2Panel2_control.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel2_control.Location = new System.Drawing.Point(205, 53);
             this.guna2Panel2_control.Name = "guna2Panel2_control";
             this.guna2Panel2_control.Size = new System.Drawing.Size(1338, 844);
             this.guna2Panel2_control.TabIndex = 2;
             this.guna2Panel2_control.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_control_Paint);
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Image = global::Dental_Application.Properties.Resources.dashboard__1_;
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(20, 6);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(34, 41);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox3.TabIndex = 0;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(63, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 24);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Dashboard";
             // 
             // Principal
             // 

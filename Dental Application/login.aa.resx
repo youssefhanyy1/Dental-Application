@@ -3860,4 +3860,7 @@
         +Z8MqBTmvJhU5ve64mYCrkj6g/yR66fG/wMdx69C9CZZdwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
 </root>

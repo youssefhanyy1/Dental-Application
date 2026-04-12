@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
@@ -44,15 +43,12 @@
             Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
             Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
             Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -102,22 +98,24 @@
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel43 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel42 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel41 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2HtmlLabel40 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
@@ -127,6 +125,8 @@
             this.guna2Panel11.SuspendLayout();
             this.guna2Panel10.SuspendLayout();
             this.guna2Panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ShadowPanel1
@@ -177,21 +177,6 @@
             this.guna2HtmlLabel2.TabIndex = 22;
             this.guna2HtmlLabel2.Text = "More";
             // 
-            // guna2CircleButton2
-            // 
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton2.Image")));
-            this.guna2CircleButton2.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(10, 10);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(87, 5);
-            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(27, 25);
-            this.guna2CircleButton2.TabIndex = 22;
-            // 
             // guna2Panel1
             // 
             this.guna2Panel1.AutoRoundedCorners = true;
@@ -215,43 +200,6 @@
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(36, 22);
             this.guna2HtmlLabel1.TabIndex = 22;
             this.guna2HtmlLabel1.Text = "More";
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton1.Image")));
-            this.guna2CircleButton1.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(10, 10);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(87, 5);
-            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(27, 25);
-            this.guna2CircleButton1.TabIndex = 22;
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(41, 361);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(27, 30);
-            this.guna2PictureBox3.TabIndex = 20;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(41, 303);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(27, 30);
-            this.guna2PictureBox2.TabIndex = 19;
-            this.guna2PictureBox2.TabStop = false;
             // 
             // guna2HtmlLabel21
             // 
@@ -851,21 +799,6 @@
             this.guna2Panel12.Size = new System.Drawing.Size(123, 36);
             this.guna2Panel12.TabIndex = 92;
             // 
-            // guna2CircleButton7
-            // 
-            this.guna2CircleButton7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
-            this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton7.Image")));
-            this.guna2CircleButton7.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2CircleButton7.ImageSize = new System.Drawing.Size(10, 10);
-            this.guna2CircleButton7.Location = new System.Drawing.Point(87, 5);
-            this.guna2CircleButton7.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CircleButton7.Name = "guna2CircleButton7";
-            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton7.Size = new System.Drawing.Size(27, 25);
-            this.guna2CircleButton7.TabIndex = 13;
-            // 
             // guna2HtmlLabel43
             // 
             this.guna2HtmlLabel43.BackColor = System.Drawing.Color.Transparent;
@@ -889,21 +822,6 @@
             this.guna2Panel11.Name = "guna2Panel11";
             this.guna2Panel11.Size = new System.Drawing.Size(123, 36);
             this.guna2Panel11.TabIndex = 91;
-            // 
-            // guna2CircleButton6
-            // 
-            this.guna2CircleButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
-            this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton6.Image")));
-            this.guna2CircleButton6.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2CircleButton6.ImageSize = new System.Drawing.Size(10, 10);
-            this.guna2CircleButton6.Location = new System.Drawing.Point(87, 5);
-            this.guna2CircleButton6.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CircleButton6.Name = "guna2CircleButton6";
-            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton6.Size = new System.Drawing.Size(27, 25);
-            this.guna2CircleButton6.TabIndex = 13;
             // 
             // guna2HtmlLabel42
             // 
@@ -929,21 +847,6 @@
             this.guna2Panel10.Size = new System.Drawing.Size(123, 36);
             this.guna2Panel10.TabIndex = 90;
             // 
-            // guna2CircleButton5
-            // 
-            this.guna2CircleButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
-            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton5.Image")));
-            this.guna2CircleButton5.ImageOffset = new System.Drawing.Point(1, 0);
-            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(10, 10);
-            this.guna2CircleButton5.Location = new System.Drawing.Point(87, 5);
-            this.guna2CircleButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2CircleButton5.Name = "guna2CircleButton5";
-            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(27, 25);
-            this.guna2CircleButton5.TabIndex = 13;
-            // 
             // guna2HtmlLabel41
             // 
             this.guna2HtmlLabel41.BackColor = System.Drawing.Color.Transparent;
@@ -968,6 +871,62 @@
             this.guna2Panel13.Size = new System.Drawing.Size(123, 36);
             this.guna2Panel13.TabIndex = 104;
             // 
+            // guna2HtmlLabel40
+            // 
+            this.guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel40.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F);
+            this.guna2HtmlLabel40.Location = new System.Drawing.Point(11, 5);
+            this.guna2HtmlLabel40.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2HtmlLabel40.Name = "guna2HtmlLabel40";
+            this.guna2HtmlLabel40.Size = new System.Drawing.Size(36, 22);
+            this.guna2HtmlLabel40.TabIndex = 10;
+            this.guna2HtmlLabel40.Text = "More";
+            // 
+            // guna2CircleButton7
+            // 
+            this.guna2CircleButton7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
+            this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton7.Image")));
+            this.guna2CircleButton7.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2CircleButton7.ImageSize = new System.Drawing.Size(10, 10);
+            this.guna2CircleButton7.Location = new System.Drawing.Point(87, 5);
+            this.guna2CircleButton7.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CircleButton7.Name = "guna2CircleButton7";
+            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton7.Size = new System.Drawing.Size(27, 25);
+            this.guna2CircleButton7.TabIndex = 13;
+            // 
+            // guna2CircleButton6
+            // 
+            this.guna2CircleButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
+            this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton6.Image")));
+            this.guna2CircleButton6.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2CircleButton6.ImageSize = new System.Drawing.Size(10, 10);
+            this.guna2CircleButton6.Location = new System.Drawing.Point(87, 5);
+            this.guna2CircleButton6.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CircleButton6.Name = "guna2CircleButton6";
+            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton6.Size = new System.Drawing.Size(27, 25);
+            this.guna2CircleButton6.TabIndex = 13;
+            // 
+            // guna2CircleButton5
+            // 
+            this.guna2CircleButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
+            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton5.Image")));
+            this.guna2CircleButton5.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(10, 10);
+            this.guna2CircleButton5.Location = new System.Drawing.Point(87, 5);
+            this.guna2CircleButton5.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CircleButton5.Name = "guna2CircleButton5";
+            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton5.Size = new System.Drawing.Size(27, 25);
+            this.guna2CircleButton5.TabIndex = 13;
+            // 
             // guna2CircleButton4
             // 
             this.guna2CircleButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
@@ -983,22 +942,63 @@
             this.guna2CircleButton4.Size = new System.Drawing.Size(27, 25);
             this.guna2CircleButton4.TabIndex = 13;
             // 
-            // guna2HtmlLabel40
+            // guna2CircleButton2
             // 
-            this.guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel40.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F);
-            this.guna2HtmlLabel40.Location = new System.Drawing.Point(11, 5);
-            this.guna2HtmlLabel40.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2HtmlLabel40.Name = "guna2HtmlLabel40";
-            this.guna2HtmlLabel40.Size = new System.Drawing.Size(36, 22);
-            this.guna2HtmlLabel40.TabIndex = 10;
-            this.guna2HtmlLabel40.Text = "More";
+            this.guna2CircleButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
+            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton2.Image")));
+            this.guna2CircleButton2.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(10, 10);
+            this.guna2CircleButton2.Location = new System.Drawing.Point(87, 5);
+            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CircleButton2.Name = "guna2CircleButton2";
+            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton2.Size = new System.Drawing.Size(27, 25);
+            this.guna2CircleButton2.TabIndex = 22;
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(68)))), ((int)(((byte)(234)))));
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton1.Image")));
+            this.guna2CircleButton1.ImageOffset = new System.Drawing.Point(1, 0);
+            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(10, 10);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(87, 5);
+            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(27, 25);
+            this.guna2CircleButton1.TabIndex = 22;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(41, 361);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(27, 30);
+            this.guna2PictureBox3.TabIndex = 20;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(41, 303);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(27, 30);
+            this.guna2PictureBox2.TabIndex = 19;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(245)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(1329, 837);
             this.Controls.Add(this.guna2HtmlLabel35);
             this.Controls.Add(this.guna2HtmlLabel36);
@@ -1036,8 +1036,6 @@
             this.guna2Panel2.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
             this.guna2Panel7.ResumeLayout(false);
@@ -1055,6 +1053,8 @@
             this.guna2Panel10.PerformLayout();
             this.guna2Panel13.ResumeLayout(false);
             this.guna2Panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
