@@ -14,7 +14,7 @@ namespace Dental_Application.main
     {
         public Patient()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void Patient_Load(object sender, EventArgs e)
