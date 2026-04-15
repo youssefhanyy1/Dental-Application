@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dental_Application.main;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,9 @@ namespace Dental_Application
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new login());
+           // Application.Run(new login());
+            Application.Run(new Principal());
+
         }
     }
 }
