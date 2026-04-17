@@ -72,16 +72,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="general control\DayCellcs.cs">
+    <Compile Include="Appointments\Control\DayCellcs.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="general control\DayCellcs.Designer.cs">
+    <Compile Include="Appointments\Control\DayCellcs.Designer.cs">
       <DependentUpon>DayCellcs.cs</DependentUpon>
     </Compile>
-    <Compile Include="main\Calendar.cs">
+    <Compile Include="Appointments\Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main\Calendar.Designer.cs">
+    <Compile Include="Appointments\Calendar.Designer.cs">
       <DependentUpon>Calendar.cs</DependentUpon>
     </Compile>
     <Compile Include="main\Dashboard.cs">
@@ -102,10 +102,16 @@
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
-    <Compile Include="main\Patient.cs">
+    <Compile Include="Patient List\Controls\PersonInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patient List\Controls\PersonInfo.Designer.cs">
+      <DependentUpon>PersonInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient List\Patient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="main\Patient.Designer.cs">
+    <Compile Include="Patient List\Patient.Designer.cs">
       <DependentUpon>Patient.cs</DependentUpon>
     </Compile>
     <Compile Include="main\Principal.cs">
@@ -116,10 +122,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="general control\DayCellcs.resx">
+    <EmbeddedResource Include="Appointments\Control\DayCellcs.resx">
       <DependentUpon>DayCellcs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="main\Calendar.resx">
+    <EmbeddedResource Include="Appointments\Calendar.resx">
       <DependentUpon>Calendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main\Dashboard.resx">
@@ -134,7 +140,7 @@
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="main\Patient.resx">
+    <EmbeddedResource Include="Patient List\Patient.resx">
       <DependentUpon>Patient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main\Principal.resx">
@@ -185,5 +191,6 @@
   <ItemGroup>
     <None Include="Resources\calendar %281%29.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
