@@ -43,6 +43,18 @@ namespace Dental_Application
 
             flpEvents.Controls.Add(btnEvent);
         }
+        // ضيف الدالة دي جوه كلاس DayCellcs
+        public void MarkAsToday()
+        {
+            // تغيير لون خلفية المربع الأساسي
+            this.BackColor = Color.FromArgb(228, 241, 254); // أزرق فاتح جداً
+
+            // اختياري: لو حابب تخلي رقم اليوم نفسه (Label) لونه مميز (مثلاً أزرق غامق بدل الأسود)
+            lblDayNumber.ForeColor = Color.FromArgb(41, 128, 185);
+
+            // اختياري: لو حابب تخلي رقم اليوم Bold عشان يبرز أكتر
+            lblDayNumber.Font = new Font(lblDayNumber.Font, FontStyle.Bold);
+        }
         private void DayCellcs_Load(object sender, EventArgs e)
         {
 

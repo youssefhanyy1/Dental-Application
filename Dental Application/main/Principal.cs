@@ -97,7 +97,7 @@ namespace Dental_Application.main
         {
             ResetAllButtons();
 
-            label3.Text = "Calendar";
+            label3.Text = "Appointments";
             guna2PictureBox3.Image = Properties.Resources.calendar__1_;
 
             guna2Button2.BackColor = Color.FromArgb(18, 83, 251);

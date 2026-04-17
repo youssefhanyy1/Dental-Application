@@ -247,7 +247,8 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(193, 45);
             this.guna2Button2.TabIndex = 10;
-            this.guna2Button2.Text = "Calendar";
+            this.guna2Button2.Text = "Appointments";
+            this.guna2Button2.TextOffset = new System.Drawing.Point(10, 0);
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2PictureBox2

@@ -37,10 +37,10 @@
             // lblDayNumber
             // 
             this.lblDayNumber.AutoSize = true;
-            this.lblDayNumber.Font = new System.Drawing.Font("Matura MT Script Capitals", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDayNumber.Font = new System.Drawing.Font("Matura MT Script Capitals", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDayNumber.Location = new System.Drawing.Point(4, 3);
             this.lblDayNumber.Name = "lblDayNumber";
-            this.lblDayNumber.Size = new System.Drawing.Size(29, 20);
+            this.lblDayNumber.Size = new System.Drawing.Size(36, 25);
             this.lblDayNumber.TabIndex = 0;
             this.lblDayNumber.Text = "00";
             this.lblDayNumber.Click += new System.EventHandler(this.lblDayNumber_Click);
