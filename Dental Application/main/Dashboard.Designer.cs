@@ -149,6 +149,8 @@
             this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.ShadowDepth = 250;
+            this.guna2ShadowPanel1.ShadowShift = 7;
             this.guna2ShadowPanel1.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.Dropped;
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(531, 438);
             this.guna2ShadowPanel1.TabIndex = 1;
@@ -366,6 +368,8 @@
             this.guna2Panel3.Location = new System.Drawing.Point(13, 13);
             this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.ShadowDecoration.Depth = 50;
+            this.guna2Panel3.ShadowDecoration.Enabled = true;
             this.guna2Panel3.Size = new System.Drawing.Size(751, 441);
             this.guna2Panel3.TabIndex = 80;
             // 

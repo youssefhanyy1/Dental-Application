@@ -18,7 +18,9 @@ namespace Dental_Application
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
           //Application.Run(new login());
-            Application.Run(new Principal());
+            //Application.Run(new Principal());
+            Application.Run(new testControls());
+
 
         }
     }

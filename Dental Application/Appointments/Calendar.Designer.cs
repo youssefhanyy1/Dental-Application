@@ -42,8 +42,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.flpSidebarEvents = new System.Windows.Forms.FlowLayoutPanel();
+            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -58,6 +58,7 @@
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel1.Controls.Add(this.guna2Button2);
             this.guna2GradientPanel1.Controls.Add(this.guna2Button1);
             this.guna2GradientPanel1.Controls.Add(this.label9);
@@ -226,6 +227,15 @@
             this.guna2GradientPanel2.Size = new System.Drawing.Size(208, 741);
             this.guna2GradientPanel2.TabIndex = 1;
             // 
+            // flpSidebarEvents
+            // 
+            this.flpSidebarEvents.BackColor = System.Drawing.Color.Transparent;
+            this.flpSidebarEvents.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flpSidebarEvents.Location = new System.Drawing.Point(0, 0);
+            this.flpSidebarEvents.Name = "flpSidebarEvents";
+            this.flpSidebarEvents.Size = new System.Drawing.Size(208, 741);
+            this.flpSidebarEvents.TabIndex = 0;
+            // 
             // guna2Button5
             // 
             this.guna2Button5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -243,15 +253,6 @@
             this.guna2Button5.TabIndex = 6;
             this.guna2Button5.Text = "Add new event";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
-            // 
-            // flpSidebarEvents
-            // 
-            this.flpSidebarEvents.BackColor = System.Drawing.Color.Transparent;
-            this.flpSidebarEvents.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpSidebarEvents.Location = new System.Drawing.Point(0, 0);
-            this.flpSidebarEvents.Name = "flpSidebarEvents";
-            this.flpSidebarEvents.Size = new System.Drawing.Size(208, 741);
-            this.flpSidebarEvents.TabIndex = 0;
             // 
             // Calendar
             // 
